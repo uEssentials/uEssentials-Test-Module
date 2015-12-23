@@ -31,16 +31,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Unturned\Unturned_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\..\uEssentials\uEssentials\lib\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Rocket.API">
-      <HintPath>..\..\JoinVip\JoinVip\lib\Rocket.API.dll</HintPath>
+      <HintPath>..\..\uEssentials\uEssentials\lib\Rocket.API.dll</HintPath>
     </Reference>
     <Reference Include="Rocket.Core">
-      <HintPath>..\..\JoinVip\JoinVip\lib\Rocket.Core.dll</HintPath>
+      <HintPath>..\..\uEssentials\uEssentials\lib\Rocket.Core.dll</HintPath>
     </Reference>
     <Reference Include="Rocket.Unturned">
-      <HintPath>..\..\JoinVip\JoinVip\lib\Rocket.Unturned.dll</HintPath>
+      <HintPath>..\..\uEssentials\uEssentials\lib\Rocket.Unturned.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -54,7 +54,7 @@
       <HintPath>..\..\..\..\Unturned\Rocket\All\Servers\-FIXED_CTRL_C\Rocket\Plugins\uEssentials.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>..\..\JoinVip\JoinVip\lib\UnityEngine.dll</HintPath>
+      <HintPath>..\..\uEssentials\uEssentials\lib\UnityEngine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
