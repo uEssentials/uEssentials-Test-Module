@@ -1,6 +1,6 @@
 ﻿/*
  *  This file is part of uEssentials project.
- *		https://uessentials.github.io/
+ *      https://uessentials.github.io/
  *
  *  Copyright (C) 2015-2016  Leonardosc
  *
