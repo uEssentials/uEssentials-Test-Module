@@ -1,0 +1,13 @@
+C:\Users\Leonardo\Documents\Visual Studio 2015\Projects\EssTestModule\EssTestModule\bin\Debug\EssTestModule.dll
+C:\Users\Leonardo\Documents\Visual Studio 2015\Projects\EssTestModule\EssTestModule\bin\Debug\EssTestModule.pdb
+C:\Users\Leonardo\Documents\Visual Studio 2015\Projects\EssTestModule\EssTestModule\bin\Debug\Assembly-CSharp.dll
+C:\Users\Leonardo\Documents\Visual Studio 2015\Projects\EssTestModule\EssTestModule\bin\Debug\Rocket.API.dll
+C:\Users\Leonardo\Documents\Visual Studio 2015\Projects\EssTestModule\EssTestModule\bin\Debug\Rocket.Core.dll
+C:\Users\Leonardo\Documents\Visual Studio 2015\Projects\EssTestModule\EssTestModule\bin\Debug\Rocket.Unturned.dll
+C:\Users\Leonardo\Documents\Visual Studio 2015\Projects\EssTestModule\EssTestModule\bin\Debug\uEssentials.dll
+C:\Users\Leonardo\Documents\Visual Studio 2015\Projects\EssTestModule\EssTestModule\bin\Debug\UnityEngine.dll
+C:\Users\Leonardo\Documents\Visual Studio 2015\Projects\EssTestModule\EssTestModule\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Leonardo\Documents\Visual Studio 2015\Projects\EssTestModule\EssTestModule\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Leonardo\Documents\Visual Studio 2015\Projects\EssTestModule\EssTestModule\obj\Debug\EssTestModule.csprojResolveAssemblyReference.cache
+C:\Users\Leonardo\Documents\Visual Studio 2015\Projects\EssTestModule\EssTestModule\obj\Debug\EssTestModule.dll
+C:\Users\Leonardo\Documents\Visual Studio 2015\Projects\EssTestModule\EssTestModule\obj\Debug\EssTestModule.pdb

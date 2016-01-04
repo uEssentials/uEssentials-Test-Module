@@ -19,15 +19,16 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 */
 
-using Essentials.Core.Command;
-using Essentials.Unturned;
+using Essentials.Api.Command;
+using Essentials.Api.Command.Source;
+using Essentials.Api.Unturned;
 
 namespace EssTestModule
 {
     [CommandInfo(
         Name = "teest",
         Description = "Just an test",
-        Target = CommandTarget.BOTH, // default
+        AllowedSource = AllowedSource.PLAYER, // default is BOTH
         Usage = "<msg>",
         Permission = "my.module.teest"
     )]
