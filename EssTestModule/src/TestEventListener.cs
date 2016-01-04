@@ -19,8 +19,8 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 */
 
-using Essentials.Api.Unturned;
 using Essentials.Core.Event;
+using Essentials.Unturned;
 using Rocket.Unturned.Player;
 
 namespace EssTestModule
