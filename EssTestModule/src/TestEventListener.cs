@@ -19,18 +19,18 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 */
 
-using Essentials.Api.Unturned;
+using Essentials.Api.Event;
+using Essentials.Api.Unturned.Events;
 using Essentials.Core.Event;
-using Rocket.Unturned.Player;
 
 namespace EssTestModule
 {
-    public class TestEventListener : IEventListener
+    public class TestEventListener : IEventListener /* <- isn't required  */
     {
-        [EventHandler( EventType.ROCKET_PLAYER_CONNECTED )]
-        public void OnPlayerJoined( UnturnedPlayer player )
+        [SubscribeEvent]
+        public void OnPlayerJoined( PlayerConnectEvent e )
         {
-            UPlayer.FromRocketPlayer( player ).SendMessage( "You joined :D", UnityEngine.Color.blue );
+            e.Player.SendMessage( "You joined :D", UnityEngine.Color.blue );
         }
     }
 }
