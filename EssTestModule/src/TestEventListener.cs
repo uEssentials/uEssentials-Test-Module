@@ -25,7 +25,7 @@ using Essentials.Core.Event;
 
 namespace EssTestModule
 {
-    public class TestEventListener : IEventListener /* <- isn't required  */
+    public class TestEventListener : IEventListener /* <- is not required anymore */
     {
         [SubscribeEvent]
         public void OnPlayerJoined( PlayerConnectEvent e )
