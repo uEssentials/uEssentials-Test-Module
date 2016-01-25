@@ -19,7 +19,7 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 */
 
-using Essentials.Modules;
+using Essentials.Api.Module;
 
 namespace EssTestModule
 {
