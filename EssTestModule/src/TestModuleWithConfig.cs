@@ -28,12 +28,10 @@ namespace EssTestModule
         Author = "Leonardosc",
         Version = "1.0.0"
     )]
-    public class TestModuleWithConfig : EssModule<TestConfig>
+    public class TestModule : EssModule
     {
         public override void OnLoad()
         {
-            Logger.LogError( $"foo is {Configuration.Foo}" );
-
             Logger.LogInfo( "Loaded" );
         }
 

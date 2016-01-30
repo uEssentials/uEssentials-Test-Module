@@ -58,7 +58,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="src\TestConfig.cs" />
     <Compile Include="src\TestEventListener.cs" />
+    <Compile Include="src\TestModuleWithConfig.cs" />
     <Compile Include="src\TestModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="src\TestCommand.cs" />
