@@ -22,15 +22,17 @@
 using Essentials.Api.Event;
 using Essentials.Api.Unturned;
 using Rocket.Unturned.Player;
+using UnityEngine;
+using EventType = Essentials.Api.Event.EventType;
 
 namespace EssTestModule
 {
     public class TestEventListener
     {
         [SubscribeEvent(EventType.ROCKET_PLAYER_CONNECTED)]
-        public void OnPlayerJoined( UnturnedPlayer e )
+        public void OnPlayerJoined( UnturnedPlayer player )
         {
-            UPlayer.FromRocketPlayer( e ).SendMessage( "You joined :D", UnityEngine.Color.blue );
+            UPlayer.Of( player ).SendMessage( "You joined :D", Color.blue );
         }
     }
 }
