@@ -32,7 +32,7 @@ namespace EssTestModule
         [SubscribeEvent(EventType.ROCKET_PLAYER_CONNECTED)]
         public void OnPlayerJoined( UnturnedPlayer player )
         {
-            UPlayer.Of( player ).SendMessage( "You joined :D", Color.blue );
+            UPlayer.From( player ).SendMessage( "You joined :D", Color.blue );
         }
     }
 }
