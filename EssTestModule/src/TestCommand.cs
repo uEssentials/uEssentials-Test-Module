@@ -34,7 +34,7 @@ namespace EssTestModule
     )]
     public class TestCommand : EssCommand
     {
-        public override void OnExecute( ICommandSource source, ICommandArgs parameters )
+        public override CommandResult OnExecute( ICommandSource source, ICommandArgs parameters )
         {
             if ( parameters.IsEmpty )
             {
@@ -44,6 +44,8 @@ namespace EssTestModule
             {
                 UServer.Broadcast( parameters.GetJoinedArguments( 0 ) );
             }
+            
+            return CommandResult.Success();
         }
     }
 }
