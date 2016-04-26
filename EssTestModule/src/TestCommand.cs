@@ -34,17 +34,16 @@ namespace EssTestModule
     )]
     public class TestCommand : EssCommand
     {
-        public override CommandResult OnExecute( ICommandSource source, ICommandArgs parameters )
+        public override CommandResult OnExecute( ICommandSource src, ICommandArgs args )
         {
-            if ( parameters.IsEmpty )
+            if ( args.IsEmpty )
             {
-                source.SendMessage( "Hi :D" );
+                src.SendMessage( "Hi :D" );
             }
             else
             {
-                UServer.Broadcast( parameters.GetJoinedArguments( 0 ) );
+                UServer.Broadcast( args.Join( 0 ) );
             }
-            
             return CommandResult.Success();
         }
     }
